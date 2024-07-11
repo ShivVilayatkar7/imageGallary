@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image gallary</title>
+    <link rel="shortcut icon" href="image/picture.png" type="image/x-icon">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="nav">
+        <h3>Image Gallary</h3>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#home">Home</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="barbox">
+        <span><p>ImageGallary</p></span>
+        <span style="font-size: 30px; cursor: pointer;" onclick="openNav()">&#9776;</span>
+    </div>
+
+    <!-- gallary -->
+    <div id="home" class="spacebox"></div>
+    <div class="scroll">
+        <h1>Image Gallary</h1>
+        <br>
+        <img id="image" src="image/road.jpg">
+        <img id="image" src="image/stone.jpg">
+        <img id="image" src="image/road.jpg">
+        <img id="image" src="image/leaf.jpg">
+        <img id="image" src="image/recipebg.jpg">
+        <img id="image" src="image/peacock.jpg">
+        <img id="image" src="image/fruitsbg.jpg">
+        <img id="image" src="image/road.jpg">
+        <img id="image" src="image/clockbg.jpg">
+        <img id="image" src="image/road.jpg">
+        <img id="image" src="image/road.jpg">
+        <img id="image" src="image/leaf.jpg">
+        <img id="image" src="image/peacock.jpg">
+        <img id="image" src="image/fruitsbg.jpg">
+        <img id="image" src="image/clockbg.jpg">
+        <img id="image" src="image/recipebg.jpg">
+        <img id="image" src="image/road.jpg">
+        <img id="image" src="image/road.jpg">
+        <img id="image" src="image/road.jpg">
+        <img id="image" src="image/road.jpg">
+        <img id="image" src="image/clockbg.jpg">
+        <img id="image" src="image/road.jpg">
+        <img id="image" src="image/leaf.jpg">
+        <img id="image" src="image/recipebg.jpg">
+    </div>
+
+    <!-- contact -->
+    <div id="contact" class="spacebox"></div>
+    <div class="contact">
+        <div>
+            <h2>Parent Organization</h2>
+            <hr>
+            <li><a href="#">Home town</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Support</a></li>
+        </div>
+        <div>
+            <br>
+            <h2>Our social Media Handles</h2>
+            <hr>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Telegram</a></li> 
+            <br> 
+        </div>
+        <h2>Image Gallary</h2>
+        <hr>
+        <p>
+            <br>
+            <a href="#">&copy; All copyright reserved / image gallary</a>
+        </p>
+    </div>
+    
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    
+</body>
+</html>
